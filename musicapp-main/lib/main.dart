@@ -14,7 +14,7 @@ class Myapp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: Home(),
-      title: 'BeeeZ',
+      title: 'MusicApp',
       theme: ThemeData(
         fontFamily: '',
         appBarTheme:

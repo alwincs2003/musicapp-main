@@ -13,7 +13,7 @@ class Player extends StatelessWidget {
     var controller = Get.find<Playercontroller>();
 
     return Scaffold(
-      backgroundColor: bgDarkColor,
+      backgroundColor: bgColor,
       appBar: AppBar(
           leading: IconButton(
               onPressed: () {
