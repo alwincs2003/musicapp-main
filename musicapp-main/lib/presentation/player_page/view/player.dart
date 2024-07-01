@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:musicapp/presentation/player_page/controller/player_controller.dart';
-import 'package:musicapp/core/constants/color_constants/colors.dart';
+import 'package:zmusic/presentation/player_page/controller/player_controller.dart';
+import 'package:zmusic/core/constants/color_constants/colors.dart';
 import 'package:on_audio_query/on_audio_query.dart';
 
 class Player extends StatelessWidget {

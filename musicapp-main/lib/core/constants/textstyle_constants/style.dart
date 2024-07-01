@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:musicapp/core/constants/color_constants/colors.dart';
+import 'package:zmusic/core/constants/color_constants/colors.dart';
 
 Ourstyle() {
   return TextStyle(

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:musicapp/core/constants/color_constants/colors.dart';
+import 'package:zmusic/core/constants/color_constants/colors.dart';
 
 class PrivacyPolicyScreen extends StatelessWidget {
   const PrivacyPolicyScreen({super.key});
@@ -30,7 +30,7 @@ class PrivacyPolicyScreen extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             Text(
-              'Privacy Policy for Musicapp',
+              'Privacy Policy for zmusic',
               style: TextStyle(
                   fontSize: 20, fontWeight: FontWeight.bold, color: textColor),
             ),
@@ -68,9 +68,9 @@ Account means a unique account created for You to access our Service or parts of
 
 Affiliate means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
 
-Application refers to Musicapp, the software program provided by the Company.
+Application refers to zmusic, the software program provided by the Company.
 
-Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Musicapp.
+Company (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to zmusic.
 
 Country refers to: Kerala, India
 

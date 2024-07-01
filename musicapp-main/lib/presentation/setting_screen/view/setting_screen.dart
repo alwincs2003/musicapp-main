@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:musicapp/core/constants/color_constants/colors.dart';
-import 'package:musicapp/presentation/setting_screen/view/privacy_policy_screen.dart';
-import 'package:musicapp/presentation/setting_screen/view/terms_and_condition_screen.dart';
+import 'package:zmusic/core/constants/color_constants/colors.dart';
+import 'package:zmusic/presentation/setting_screen/view/privacy_policy_screen.dart';
+import 'package:zmusic/presentation/setting_screen/view/terms_and_condition_screen.dart';
 
 class SettingScreen extends StatelessWidget {
   const SettingScreen({super.key});

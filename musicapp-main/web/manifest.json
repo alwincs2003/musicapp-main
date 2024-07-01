@@ -1,6 +1,6 @@
 {
-    "name": "musicapp",
-    "short_name": "musicapp",
+    "name": "zmusic",
+    "short_name": "zmusic",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

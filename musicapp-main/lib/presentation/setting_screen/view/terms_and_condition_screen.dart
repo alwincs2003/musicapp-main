@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:musicapp/core/constants/color_constants/colors.dart';
+import 'package:zmusic/core/constants/color_constants/colors.dart';
 
 class TermsAndConditionScreen extends StatelessWidget {
   const TermsAndConditionScreen({super.key});
@@ -30,7 +30,7 @@ class TermsAndConditionScreen extends StatelessWidget {
         child: ListView(
           children: <Widget>[
             Text(
-              'Terms and Conditions for Musicapp',
+              'Terms and Conditions for zmusic',
               style: TextStyle(
                   fontSize: 15, fontWeight: FontWeight.bold, color: textColor),
             ),
@@ -80,7 +80,7 @@ class TermsAndConditionScreen extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'The content, features, and functionality of the App are the exclusive property of Musicapp. You may not reproduce, distribute, modify, or creat derivative works of any part of the App without our express consent.',
+              'The content, features, and functionality of the App are the exclusive property of zmusic. You may not reproduce, distribute, modify, or creat derivative works of any part of the App without our express consent.',
               style: TextStyle(fontSize: 10, color: textColor),
             ),
             SizedBox(height: 16),
@@ -91,7 +91,7 @@ class TermsAndConditionScreen extends StatelessWidget {
             ),
             SizedBox(height: 16),
             Text(
-              'Musicapp and its affiliates shall not be liable for any indirect,incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectily, or any loss of data, use, goodwill, or other intangible losses, resulting from your use of the App.',
+              'zmusic and its affiliates shall not be liable for any indirect,incidental, special, consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or indirectily, or any loss of data, use, goodwill, or other intangible losses, resulting from your use of the App.',
               style: TextStyle(fontSize: 10, color: textColor),
             ),
             SizedBox(height: 16),

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:musicapp/presentation/player_page/controller/player_controller.dart';
-import 'package:musicapp/presentation/player_page/view/player.dart';
+import 'package:zmusic/presentation/player_page/controller/player_controller.dart';
+import 'package:zmusic/presentation/player_page/view/player.dart';
 
 class MiniAudioPlayer extends StatelessWidget {
   @override
@@ -21,7 +21,7 @@ class MiniAudioPlayer extends StatelessWidget {
           );
         },
         child: Container(
-          height: 70,
+          height: 75,
           width: double.infinity,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
@@ -37,28 +37,22 @@ class MiniAudioPlayer extends StatelessWidget {
 
                 return Row(
                   children: [
-                    IconButton(
-                      onPressed: () {
-                        if (controller.isplaying.value) {
-                          controller.audioPlayer.pause();
-                        } else {
-                          controller.audioPlayer.play();
-                        }
-                        controller.isplaying.toggle();
-                      },
-                      icon: Icon(
-                        controller.isplaying.value
-                            ? Icons.pause
-                            : Icons.play_arrow,
-                        color: Colors.red,
-                      ),
-                    ),
-                    SizedBox(width: 2),
                     Expanded(
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
+                          // Padding(
+                          //   padding: const EdgeInsets.only(left: 290),
+                          //   child: IconButton(
+                          //     onPressed: () {},
+                          //     icon: Icon(
+                          //       Icons.clear,
+                          //       color: textColor,
+                          //       size: 15,
+                          //     ),
+                          //   ),
+                          // ),
                           Text(
                             currentSong != null ? currentSong.title : '',
                             style: TextStyle(
@@ -84,6 +78,30 @@ class MiniAudioPlayer extends StatelessWidget {
                         ],
                       ),
                     ),
+                    SizedBox(width: 2),
+                    IconButton(
+                      onPressed: () {
+                        if (controller.isplaying.value) {
+                          controller.audioPlayer.pause();
+                        } else {
+                          controller.audioPlayer.play();
+                        }
+                        controller.isplaying.toggle();
+                      },
+                      icon: Icon(
+                        controller.isplaying.value
+                            ? Icons.pause
+                            : Icons.play_arrow,
+                        color: Colors.red,
+                      ),
+                    ),
+                    IconButton(
+                      onPressed: () {},
+                      icon: Icon(
+                        Icons.clear,
+                        color: Colors.red,
+                      ),
+                    )
                   ],
                 );
               }),

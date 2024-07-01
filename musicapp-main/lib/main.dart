@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:musicapp/presentation/home_page/view/homepage.dart';
+import 'package:zmusic/presentation/home_page/view/homepage.dart';
 
 void main() {
   runApp(Myapp());
@@ -14,7 +14,7 @@ class Myapp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       home: Home(),
-      title: 'MusicApp',
+      title: 'zmusic',
       theme: ThemeData(
         fontFamily: '',
         appBarTheme:
